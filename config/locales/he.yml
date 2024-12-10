@@ -102,8 +102,8 @@ he:
         pending: בהמתנה
         silenced: מוגבלים
         suspended: מושהים
-        title: ניהול קהילה
-      moderation_notes: הודעות מנחה
+        title: ניהול דיון
+      moderation_notes: הודעות מנחה דיונים
       most_recent_activity: פעילות עדכנית
       most_recent_ip: כתובות אחרונות
       no_account_selected: לא בוצעו שינויים בחשבונות ל שכן לא נבחרו חשבונות
@@ -562,7 +562,7 @@ he:
       moderation:
         all: הכל
         limited: מוגבלים
-        title: ניהול קהילה
+        title: ניהול דיון
       private_comment: הערה פרטית
       public_comment: תגובה פומבית
       purge: טיהור
@@ -670,7 +670,7 @@ he:
         delete: מחיקה
         placeholder: תאר/י אילו פעולות ננקטו, או עדכונים קשורים אחרים...
         title: הערות
-      notes_description_html: צפייה והשארת הערות למנחים אחרים או לעצמך העתידי
+      notes_description_html: צפייה והשארת הערות למנחים אחרים או לעצמך לעתיד
       processed_msg: דיווח %{id} עוּבָּד בהצלחה
       quick_actions_description_html: 'נקוט/י פעולה מהירה או גלול/י למטה לצפייה בתוכן המדווח:'
       remote_user_placeholder: המשתמש המרוחק מ-%{instance}
@@ -721,7 +721,7 @@ he:
         administration: ניהול מערכת
         devops: DevOps
         invites: הזמנות
-        moderation: פיקוח
+        moderation: ניהול דיון
         special: מיוחדים
       delete: מחיקה
       description_html: באמצעות <strong>תפקידי משתמש</strong>, תוכלו להתאים אישית לאילו פונקציות ואזורים של מסטודון המשתמשים יוכלו לגשת
@@ -743,7 +743,7 @@ he:
         manage_announcements: ניהול הכרזות
         manage_announcements_description: מאפשר למשתמשים לנהל הכרזות של השרת
         manage_appeals: ניהול ערעורים
-        manage_appeals_description: מאפשר למשתמשים לסקור ערעורים כנגד פעולות מודרציה
+        manage_appeals_description: מאפשר למשתמשים לסקור ערעורים כנגד פעולות ניהול דיון
         manage_blocks: ניהול חסימות
         manage_blocks_description: מאפשר למשתמשים לחסום ספקי דוא"ל וכתובות IP
         manage_custom_emojis: ניהול סמלונים בהתאמה אישית
@@ -753,7 +753,7 @@ he:
         manage_invites: ניהול הזמנות
         manage_invites_description: מאפשר למשתמשים לעלעל ב ולבטל קישורי הזמנה
         manage_reports: ניהול דו"חות
-        manage_reports_description: מאפשר למשתמשים לסקור דו"חות ולבצע פעולות מודרציה בהתבסס עליהם
+        manage_reports_description: מאפשר למשתמשים לסקור דו"חות ולבצע פעולות ניהול דיון בהתבסס עליהם
         manage_roles: ניהול תפקידים
         manage_roles_description: מאפשר למשתמשים לנהל ולמנות אחרים לתפקידים נמוכים יותר משלהם.
         manage_rules: ניהול כללים
@@ -765,7 +765,7 @@ he:
         manage_user_access: ניהול גישת משתמשים
         manage_user_access_description: מאפשר למשתמשים לבטל אימות דו-שלבי של משתמשים אחרים, לשנות את כתובות הדוא"ל שלהם, ולאפס את סיסמתם
         manage_users: ניהול משתמשים
-        manage_users_description: מאפשר למשתמשים לצפות בפרטים של משתמשים אחרים ולבצע פעולות מודרציה לפיהם
+        manage_users_description: מאפשר למשתמשים לצפות בפרטים של משתמשים אחרים ולבצע פעולות ניהול דיון לפיהם
         manage_webhooks: ניהול Webhooks
         manage_webhooks_description: מאפשר למשתמשים להגדיר Webhooks לאירועים מנהלתיים
         view_audit_log: צפייה בלוג ביקורת
@@ -1168,7 +1168,6 @@ he:
     migrate_account: מעבר לחשבון אחר
     migrate_account_html: אם ברצונך להכווין את החשבון לעבר חשבון אחר, ניתן <a href="%{path}">להגדיר זאת כאן</a>.
     or_log_in_with: או התחבר באמצעות
-    privacy_policy_agreement_html: קראתי והסכמתי ל<a href="%{privacy_policy_path}" target="_blank">מדיניות הפרטיות</a>
     progress:
       confirm: אימות כתובת הדואל
       details: הפרטים שלך
@@ -1193,7 +1192,6 @@ he:
     set_new_password: סיסמה חדשה
     setup:
       email_below_hint_html: אנא בדקו בתיקיית הספאם, או בקשו קוד חדש. ניתן לתקן את הכתובת אם נפלה תקלדה.
-      email_settings_hint_html: לחצו על הקישור שנשלח כדי לאשר את הכתובת %{email}. אנו ממתינים פה.
       link_not_received: לא קיבלת קישור?
       new_confirmation_instructions_sent: אתם עומדים לקבל הודעת דואל חדשה עם קיש/ור אימות בדקות הקרובות!
       title: בדוק/בדקי את תיבת הדואר הנכנס שלך
@@ -1202,7 +1200,6 @@ he:
       title: התחבר אל %{domain}
     sign_up:
       manual_review: פתיחת חשבון אצל %{domain} עוברת בדיקה ידנית על ידי הצוות שלנו. כדי לסייע בתהליך הרישום שלכןם, כתבו לנו על עצמכןם ולמה אתןם רוצותים חשבון בשרת %{domain}.
-      preamble: כיוון שמסטודון מבוזרת, תוכל/י להשתמש בחשבון שלך משרתי מסטודון או רשתות תואמות אחרות אם אין לך חשבון על שרת זה.
       title: הבה ניצור לך חשבון בשרת %{domain}.
     status:
       account_status: מצב חשבון
@@ -1752,7 +1749,7 @@ he:
   scheduled_statuses:
     over_daily_limit: חרגת מהמספר המקסימלי של הודעות מתוזמנות להיום, שהוא %{limit}
     over_total_limit: חרגת מהמספר המקסימלי של הודעות מתוזמנות, שהוא %{limit}
-    too_soon: תאריך התזמון חייב להיות בעתיד
+    too_soon: התאריך חייב להיות עתידי
   self_destruct:
     lead_html: לרוע המזל, <strong>%{domain}</strong> עומד לרדת באופן סופי. אם היה לך חשבון כאן, לא תהיה אפשרות להמשיך להשתמש בו, אבל ניתן לבקש גיבוי של כל המידע שלך.
     title: שרת זה בתהליכי סגירה
