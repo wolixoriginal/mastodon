@@ -248,9 +248,11 @@ lv:
         confirm_user_html: "%{name} apstiprināja lietotāja %{target} e-pasta adresi"
         create_account_warning_html: "%{name} nosūtīja brīdinājumu %{target}"
         create_announcement_html: "%{name} izveidoja jaunu paziņojumu %{target}"
+        create_canonical_email_block_html: "%{name} liedza e-pasta adresi ar jaucējkodu %{target}"
         create_custom_emoji_html: "%{name} augšupielādēja jaunu emocijzīmi %{target}"
         create_domain_allow_html: "%{name} atļāva federāciju ar domēnu %{target}"
         create_domain_block_html: "%{name} bloķēja domēnu %{target}"
+        create_email_domain_block_html: "%{name} liedza e-pasta domēnu %{target}"
         create_ip_block_html: "%{name} izveidoja nosacījumu priekš IP %{target}"
         create_unavailable_domain_html: "%{name} apturēja piegādi uz domēnu %{target}"
         create_user_role_html: "%{name} nomainīja %{target} lomu"
@@ -1108,7 +1110,6 @@ lv:
     migrate_account: Pāriešana uz citu kontu
     migrate_account_html: Ja vēlies novirzīt šo kontu uz citu, tu vari <a href="%{path}">to konfigurēt šeit</a>.
     or_log_in_with: Vai piesakies ar
-    privacy_policy_agreement_html: Esmu izlasījis un piekrītu <a href="%{privacy_policy_path}" target="_blank">privātuma politikai</a>
     progress:
       confirm: Apstiprināt e-pasta adresi
       details: Tavi dati
@@ -1133,7 +1134,6 @@ lv:
     set_new_password: Iestatīt jaunu paroli
     setup:
       email_below_hint_html: Jāpārbauda sava surogātpasta mape vai jāpieprasa vēl vienu! Savu e-pasta adresi var labot, ja tā ir nepareiza.
-      email_settings_hint_html: Noklikšķini uz saites, kuru mēs tev nosūtījām, lai apstiprinātu %{email}. Mēs tepat pagaidīsim.
       link_not_received: Vai nesaņēmi sati?
       new_confirmation_instructions_sent: Pēc dažām minūtēm saņemsi jaunu e-pasta ziņojumu ar apstiprinājuma saiti.
       title: Pārbaudi savu iesūtni
@@ -1142,7 +1142,6 @@ lv:
       title: Pieteikties %{domain}
     sign_up:
       manual_review: Reģistrācijas domēnā %{domain} manuāli pārbauda mūsu moderatori. Lai palīdzētu mums apstrādāt tavu reģistrāciju, uzraksti mazliet par sevi un to, kāpēc vēlies kontu %{domain}.
-      preamble: Ar kontu šajā Mastodon serverī varēsi sekot jebkuram citam tīklā esošam cilvēkam neatkarīgi no tā, kur tiek mitināts viņa konts.
       title: Atļauj tevi iestatīt %{domain}.
     status:
       account_status: Konta statuss
@@ -1610,7 +1609,6 @@ lv:
   scheduled_statuses:
     over_daily_limit: Tu esi pārsniedzis šodien ieplānoto %{limit} ziņu ierobežojumu
     over_total_limit: Tu esi pārsniedzis ieplānoto %{limit} ziņu ierobežojumu
-    too_soon: Ieplānotajam datumam ir jābūt nākotnē
   self_destruct:
     lead_html: Diemžēl domēns <strong>%{domain}</strong> tiek neatgriezeniski slēgts. Ja tev tur bija konts, tu nevarēsi turpināt to lietot, taču joprojām vari pieprasīt savu datu kopiju.
     title: Šis serveris tiek slēgts
